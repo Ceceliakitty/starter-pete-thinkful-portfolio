@@ -18,7 +18,9 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* Containers */
@@ -37,6 +39,16 @@ article div {
   width: 100%;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.left-align {
+  text-align: left;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
@@ -49,6 +61,11 @@ a:link {
 
 a:hover {
   color: #f77f00;
+}
+
+nav {
+  display: flex;
+  align-items: center;
 }
 
 nav a {
